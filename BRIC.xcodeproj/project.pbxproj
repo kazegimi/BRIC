@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443C526C214928F900AD77DC /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C526A214928F900AD77DC /* ListTableViewCell.m */; };
+		443C526D214928F900AD77DC /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 443C526B214928F900AD77DC /* ListTableViewCell.xib */; };
+		443C527021492CFE00AD77DC /* ListDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C526F21492CFE00AD77DC /* ListDownloader.m */; };
+		443C527321492F5700AD77DC /* FileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C527221492F5700AD77DC /* FileDownloader.m */; };
+		446B37F72148E50200EB10A8 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 446B37F62148E50200EB10A8 /* DownloadManager.m */; };
 		446EB9592148D6A1009C143D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EB9582148D6A1009C143D /* AppDelegate.m */; };
-		446EB95C2148D6A2009C143D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EB95B2148D6A2009C143D /* ViewController.m */; };
 		446EB95F2148D6A2009C143D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446EB95D2148D6A2009C143D /* Main.storyboard */; };
 		446EB9622148D6A2009C143D /* BRIC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 446EB9602148D6A2009C143D /* BRIC.xcdatamodeld */; };
 		446EB9642148D6A4009C143D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446EB9632148D6A4009C143D /* Assets.xcassets */; };
@@ -16,6 +20,9 @@
 		446EB96A2148D6A4009C143D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EB9692148D6A4009C143D /* main.m */; };
 		446EB9742148D6A4009C143D /* BRICTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EB9732148D6A4009C143D /* BRICTests.m */; };
 		446EB97F2148D6A4009C143D /* BRICUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EB97E2148D6A4009C143D /* BRICUITests.m */; };
+		446EB9952148DA5D009C143D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EB9942148DA5D009C143D /* MainViewController.m */; };
+		446EB9A12148DDA4009C143D /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EB9A02148DDA4009C143D /* MainTableViewController.m */; };
+		446EB9A42148DDF1009C143D /* SubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EB9A32148DDF1009C143D /* SubTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		443C5269214928F900AD77DC /* ListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		443C526A214928F900AD77DC /* ListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		443C526B214928F900AD77DC /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		443C526E21492CFE00AD77DC /* ListDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListDownloader.h; sourceTree = "<group>"; };
+		443C526F21492CFE00AD77DC /* ListDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListDownloader.m; sourceTree = "<group>"; };
+		443C527121492F5700AD77DC /* FileDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileDownloader.h; sourceTree = "<group>"; };
+		443C527221492F5700AD77DC /* FileDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileDownloader.m; sourceTree = "<group>"; };
+		446B37F52148E50200EB10A8 /* DownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		446B37F62148E50200EB10A8 /* DownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
 		446EB9542148D6A1009C143D /* BRIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		446EB9572148D6A1009C143D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		446EB9582148D6A1009C143D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		446EB95A2148D6A1009C143D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		446EB95B2148D6A2009C143D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		446EB95E2148D6A2009C143D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		446EB9612148D6A2009C143D /* BRIC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BRIC.xcdatamodel; sourceTree = "<group>"; };
 		446EB9632148D6A4009C143D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +67,12 @@
 		446EB97A2148D6A4009C143D /* BRICUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRICUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		446EB97E2148D6A4009C143D /* BRICUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRICUITests.m; sourceTree = "<group>"; };
 		446EB9802148D6A4009C143D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446EB9932148DA5D009C143D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		446EB9942148DA5D009C143D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		446EB99F2148DDA4009C143D /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		446EB9A02148DDA4009C143D /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		446EB9A22148DDF1009C143D /* SubTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubTableViewController.h; sourceTree = "<group>"; };
+		446EB9A32148DDF1009C143D /* SubTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +125,22 @@
 			children = (
 				446EB9572148D6A1009C143D /* AppDelegate.h */,
 				446EB9582148D6A1009C143D /* AppDelegate.m */,
-				446EB95A2148D6A1009C143D /* ViewController.h */,
-				446EB95B2148D6A2009C143D /* ViewController.m */,
 				446EB95D2148D6A2009C143D /* Main.storyboard */,
+				446EB9932148DA5D009C143D /* MainViewController.h */,
+				446EB9942148DA5D009C143D /* MainViewController.m */,
+				446EB99F2148DDA4009C143D /* MainTableViewController.h */,
+				446EB9A02148DDA4009C143D /* MainTableViewController.m */,
+				446EB9A22148DDF1009C143D /* SubTableViewController.h */,
+				446EB9A32148DDF1009C143D /* SubTableViewController.m */,
+				443C526B214928F900AD77DC /* ListTableViewCell.xib */,
+				443C5269214928F900AD77DC /* ListTableViewCell.h */,
+				443C526A214928F900AD77DC /* ListTableViewCell.m */,
+				446B37F52148E50200EB10A8 /* DownloadManager.h */,
+				446B37F62148E50200EB10A8 /* DownloadManager.m */,
+				443C526E21492CFE00AD77DC /* ListDownloader.h */,
+				443C526F21492CFE00AD77DC /* ListDownloader.m */,
+				443C527121492F5700AD77DC /* FileDownloader.h */,
+				443C527221492F5700AD77DC /* FileDownloader.m */,
 				446EB9632148D6A4009C143D /* Assets.xcassets */,
 				446EB9652148D6A4009C143D /* LaunchScreen.storyboard */,
 				446EB9682148D6A4009C143D /* Info.plist */,
@@ -239,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				446EB9672148D6A4009C143D /* LaunchScreen.storyboard in Resources */,
+				443C526D214928F900AD77DC /* ListTableViewCell.xib in Resources */,
 				446EB9642148D6A4009C143D /* Assets.xcassets in Resources */,
 				446EB95F2148D6A2009C143D /* Main.storyboard in Resources */,
 			);
@@ -265,10 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446EB95C2148D6A2009C143D /* ViewController.m in Sources */,
+				446B37F72148E50200EB10A8 /* DownloadManager.m in Sources */,
+				446EB9A42148DDF1009C143D /* SubTableViewController.m in Sources */,
 				446EB9622148D6A2009C143D /* BRIC.xcdatamodeld in Sources */,
 				446EB96A2148D6A4009C143D /* main.m in Sources */,
 				446EB9592148D6A1009C143D /* AppDelegate.m in Sources */,
+				443C527021492CFE00AD77DC /* ListDownloader.m in Sources */,
+				443C526C214928F900AD77DC /* ListTableViewCell.m in Sources */,
+				446EB9A12148DDA4009C143D /* MainTableViewController.m in Sources */,
+				443C527321492F5700AD77DC /* FileDownloader.m in Sources */,
+				446EB9952148DA5D009C143D /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,13 +480,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WD5CMA9WF;
 				INFOPLIST_FILE = BRIC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = skyElements.BRIC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -457,13 +498,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WD5CMA9WF;
 				INFOPLIST_FILE = BRIC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = skyElements.BRIC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
